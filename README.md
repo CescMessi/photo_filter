@@ -22,7 +22,7 @@ $ python photo_filter.py
 ```
 
 2. 使用编译好的程序（Windows）
-下载[photo_filter_windows_x64.zip]()，解压后双击`photo_filter.exe`运行。
+下载[photo_filter_windows_x64.zip](https://github.com/CescMessi/photo_filter/releases/download/1.0.0/photo_filter_windows_x64.zip)，解压后双击`photo_filter.exe`运行。
 
 ## 使用效果
 ![example](./gif/example.gif)
