@@ -208,7 +208,7 @@ class Inference(QObject):
         length = len(file_names)
         for i, img_name in enumerate(file_names):
             suffix = img_name.split('.')[-1]
-            if not suffix in support_suffix:
+            if not suffix.lower() in support_suffix:
                 img_name = f'后缀必须在{support_suffix}中，{img_name}读取失败!'
                 out = -1
                 self.result_signal.emit(img_name, float(out))
